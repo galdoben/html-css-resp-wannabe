@@ -142,17 +142,43 @@ img {
     .row{
         display: block;
         margin: 0 auto;
-        
+        width: 100%;
     
     }
     .container{
         width: 100%;
+        
 
     }
     .col{
         margin: 0 auto;
         
+        
        
     }
+    .why-us{
+        background-color: rgb(27, 25, 25);
+    }
+    .lessons .col{
+        width: 80%;
+    }
+    .steps .col{
+        width: 80%;
+    }
+    .why-us .col-left {
+        width: 80%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .why-us .col-right {
+        width: 80%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .card{
+        padding-top: 20px;
+        padding-bottom: 15px;
+    }
+
 
 }
